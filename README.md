@@ -7,10 +7,12 @@ Next to:
 * `OffsetSpec.LatestSpec`
 * `OffsetSpec.TimestampSpec`
 
-Since version 3.0.0 you can get 
+Since version 3.0.0 you can get :
 * `OffsetSpec.MaxTimestampSpec()`: this returns the offset and timestamp for the record with the highest timestamp.
 
-See also
+In combination with `listOffsets` method on the `org.apache.kafka.clients.admin.AdminClient`.
+
+See also:
 * [Extend ListOffset to fetch offset with max timestamp (KIP-734)](https://issues.apache.org/jira/browse/KAFKA-12541)
 * [KIP-734](https://cwiki.apache.org/confluence/display/KAFKA/KIP-734%3A+Improve+AdminClient.listOffsets+to+return+timestamp+and+offset+for+the+record+with+the+largest+timestamp)
 
