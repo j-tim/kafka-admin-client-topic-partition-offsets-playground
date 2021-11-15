@@ -1,0 +1,26 @@
+spring:
+  application:
+    name: kafka-application
+
+  kafka:
+    bootstrap-servers: localhost:9092
+    producer:
+      client-id: "my-client-id"
+      key-serializer: org.apache.kafka.common.serialization.StringSerializer
+      value-serializer: org.apache.kafka.common.serialization.StringSerializer
+
+chuck:
+  norris:
+    fact:
+      producer:
+        # Produce a Chuck Norris fact every second
+        cron: "*/1 * * * * *"
+        # Disable the producer
+#        cron: "-"
+
+# List the offset of the topic chuck-norris every 10 seconds
+print:
+  offsets:
+    rate:
+      ms: 10000
+
