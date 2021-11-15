@@ -8,7 +8,7 @@ Next to:
 * `OffsetSpec.TimestampSpec`
 
 Since version 3.0.0 you can get :
-* `OffsetSpec.MaxTimestampSpec()`: this returns the offset and timestamp for the record with the highest timestamp.
+* `OffsetSpec.MaxTimestampSpec`: this returns the offset and timestamp for the record with the highest timestamp.
 
 In combination with `listOffsets` method on the `org.apache.kafka.clients.admin.AdminClient`.
 
