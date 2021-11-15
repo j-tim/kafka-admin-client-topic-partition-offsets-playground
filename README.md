@@ -1,6 +1,6 @@
 # Kafka Admin Client - Topic Partition offset playground
 
-Playground to play around with the Kafka client version 3.0.0.
+Playground to play around with the Kafka (Admin) client version 3.0.0.
 
 Next to:
 * `OffsetSpec.EarliestSpec`
